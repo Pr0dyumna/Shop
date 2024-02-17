@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    background-color: whitesmoke;
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201912/Capture_9.png?size=690:388);
+}
+.main{
+height: 60px;
+border-radius: 10px;
+justify-content: space-between;
+width: 100%;
+display:flex;
+background-color:rgb(240, 87, 176);
+border: 1px solid transparent;
+
+}   .menu{
+margin-right: 100px;
+}
+
+ul{
+width: 450px;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+
+}a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 300;
+color:rgb(255, 254, 254);
+}
+
+li:hover{border-bottom: 5px solid rgb(255, 255, 255);
+height: 42px;
+}
+
+/* .search{
+font-size: 15px;
+
+} */
+/* body {
+    font-family: 'Roboto', Arial, sans-serif;
+  } */
+  
+  .wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 6rem auto;
+  }
+  
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-top: -90px;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 100%;
+    height: 40px;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+li{
+text-decoration: none;
+}
+
+ol{
+list-style: none;
+display: flex;
+width: 250px;
+justify-content: space-evenly;
+}
